@@ -3,23 +3,23 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>1P Agency — Crecimiento hiper enfocado: resultados exponenciales, velocidad y exclusividad</title>
-  <meta name="description" content="1P Agency: agencia hiper enfocada en tu producto. Resultados exponenciales, velocidad sin burocracia, expertise profundo, exclusividad competitiva y operación simple." />
+  <title>1 Agency — Una agencia para ordenar, crecer y medirlo todo</title>
+  <meta name="description" content="1 Agency para Pymes: eficiencia, claridad y ROI máximo. Eres el único cliente. Una agencia para negocios sin tiempo de implementar, para emprendedores que no saben por dónde empezar y para quienes necesitan promocionar sin perder dinero." />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://www.ejemplo.com/1p-agency" />
+  <link rel="canonical" href="https://www.ejemplo.com/1-agency" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="1P Agency — Crecimiento hiper enfocado" />
-  <meta property="og:description" content="Resultados exponenciales, velocidad y agilidad, expertise inigualable y exclusividad garantizada." />
+  <meta property="og:title" content="1 Agency — Una agencia para ordenar, crecer y medirlo todo" />
+  <meta property="og:description" content="Eficiencia, claridad y ROI extremo. No eres un cliente más: eres el único." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.ejemplo.com/1p-agency" />
-  <meta property="og:image" content="https://www.ejemplo.com/og-image-1p.jpg" />
+  <meta property="og:url" content="https://www.ejemplo.com/1-agency" />
+  <meta property="og:image" content="https://www.ejemplo.com/og-image-1a.jpg" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="1P Agency — Crecimiento hiper enfocado" />
-  <meta name="twitter:description" content="Resultados exponenciales, velocidad y agilidad, expertise inigualable y exclusividad garantizada." />
-  <meta name="twitter:image" content="https://www.ejemplo.com/og-image-1p.jpg" />
+  <meta name="twitter:title" content="1 Agency — Una agencia para ordenar, crecer y medirlo todo" />
+  <meta name="twitter:description" content="Eficiencia, claridad y ROI extremo. No eres un cliente más: eres el único." />
+  <meta name="twitter:image" content="https://www.ejemplo.com/og-image-1a.jpg" />
 
   <!-- Fuente + Tailwind -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -27,6 +27,8 @@
   <style>
     html { scroll-behavior: smooth; }
     body { font-feature-settings: "ss01","ss02","cv11"; }
+    [data-lang] { display: none; }
+    [data-lang="es"] { display: block; }
   </style>
 
   <!-- Schema.org: Organización y Servicio -->
@@ -34,21 +36,20 @@
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "1P Agency",
-    "url": "https://www.ejemplo.com/1p-agency",
-    "logo": "https://www.ejemplo.com/logo-1p.png",
-    "sameAs": []
+    "name": "1 Agency",
+    "url": "https://www.ejemplo.com/1-agency",
+    "logo": "https://www.ejemplo.com/logo-1-agency.png"
   }
   </script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "Crecimiento Hiper Enfocado",
-    "provider": {"@type": "Organization","name": "1P Agency"},
+    "name": "Departamento de Marketing Externo para Pymes",
+    "provider": {"@type": "Organization","name": "1 Agency"},
     "serviceType": "Marketing y crecimiento",
     "areaServed": "Global",
-    "description": "Estrategias dedicadas 100% a un solo producto, con resultados medibles y ejecución veloz."
+    "description": "Eficiencia, claridad y ROI máximo con un equipo dedicado: eres el único cliente."
   }
   </script>
 </head>
@@ -58,47 +59,62 @@
   <!-- Header / Nav -->
   <header class="sticky top-0 z-40 backdrop-blur bg-white/80 border-b border-slate-200/60">
     <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-      <a href="#" class="flex items-center gap-2" aria-label="Inicio 1P Agency">
+      <a href="#" class="flex items-center gap-2" aria-label="Inicio 1 Agency">
         <div class="w-8 h-8 rounded-xl bg-slate-900"></div>
-        <span class="font-extrabold tracking-tight text-lg">1P Agency</span>
+        <span class="font-extrabold tracking-tight text-lg">1 Agency</span>
       </a>
       <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
         <a href="#beneficios" class="hover:text-slate-600">Beneficios</a>
-        <a href="#por-que" class="hover:text-slate-600">¿Por qué 1P?</a>
+        <a href="#para-quien" class="hover:text-slate-600">Para quién</a>
+        <a href="#paquete" class="hover:text-slate-600">Pack Orden & Growth</a>
         <a href="#preguntas" class="hover:text-slate-600">FAQ</a>
+        <button id="btn-es" class="rounded-xl border border-slate-300 px-3 py-1" aria-pressed="true">ES</button>
+        <button id="btn-en" class="rounded-xl border border-slate-300 px-3 py-1" aria-pressed="false">EN</button>
         <a href="#contacto" class="inline-flex items-center gap-2 rounded-xl border border-slate-900 px-4 py-2 hover:bg-slate-900 hover:text-white transition" aria-label="Agendar">Agendar</a>
       </nav>
     </div>
   </header>
 
-  <main id="contenido">
+  <!-- ===== CONTENIDO EN ESPAÑOL ===== -->
+  <main id="contenido" data-lang="es">
     <!-- Hero -->
     <section class="relative overflow-hidden">
       <div class="max-w-6xl mx-auto px-6 pt-16 pb-12 grid lg:grid-cols-12 gap-10 items-center">
         <div class="lg:col-span-7">
-          <p class="uppercase tracking-widest text-xs font-semibold text-slate-500">Crecimiento hiper enfocado</p>
+          <p class="uppercase tracking-widest text-xs font-semibold text-slate-500">Eficiencia • Claridad • ROI</p>
           <h1 class="mt-3 text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight">
-            Resultados <span class="inline-block -skew-x-3 bg-yellow-300 px-2">exponenciales</span> sin burocracia
+            1 agencia para <span class="inline-block -skew-x-3 bg-yellow-300 px-2">ordenarlo</span>, <span class="inline-block -skew-x-3 bg-yellow-300 px-2">hacerlo crecer</span> y <span class="inline-block -skew-x-3 bg-yellow-300 px-2">medirlo todo</span>
           </h1>
           <p class="mt-5 text-lg sm:text-xl text-slate-700 max-w-2xl">
-            Un solo foco: <strong>tu producto</strong>. Dedicamos el 100% del tiempo y la creatividad a descifrar cómo crecer más rápido. Ejecución veloz, estrategias audaces y <em>KPIs</em> que se mueven.
+            No eres un cliente más: <strong>eres el único</strong>. Convertimos el caos en claridad y el gasto en <strong>inversión con ROI</strong>.
           </p>
           <div class="mt-7 flex flex-wrap gap-3">
             <a href="#contacto" class="inline-flex items-center justify-center px-5 py-3 text-base font-semibold rounded-2xl bg-slate-900 text-white hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-slate-900 focus:ring-offset-2">Agendar una reunión</a>
             <a href="#beneficios" class="inline-flex items-center justify-center px-5 py-3 text-base font-semibold rounded-2xl border border-slate-300 hover:border-slate-900 hover:text-slate-900">Ver beneficios</a>
           </div>
-          <ul class="mt-6 grid grid-cols-2 gap-4 text-sm text-slate-600 max-w-lg" aria-label="Puntos clave">
-            <li class="flex items-start gap-2"><span class="mt-1 inline-block w-1.5 h-1.5 rounded-full bg-slate-900"></span>Sin cambiar de contexto entre clientes</li>
-            <li class="flex items-start gap-2"><span class="mt-1 inline-block w-1.5 h-1.5 rounded-full bg-slate-900"></span>Ejecución en horas, no semanas</li>
-            <li class="flex items-start gap-2"><span class="mt-1 inline-block w-1.5 h-1.5 rounded-full bg-slate-900"></span>Exclusividad: no trabajamos con tus competidores</li>
-            <li class="flex items-start gap-2"><span class="mt-1 inline-block w-1.5 h-1.5 rounded-full bg-slate-900"></span>Métricas claras y comparables</li>
-          </ul>
         </div>
         <div class="lg:col-span-5">
           <figure class="relative aspect-[4/3] rounded-3xl border border-slate-200 shadow-sm overflow-hidden">
-            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1470&auto=format&fit=crop" alt="Equipo de marketing analizando crecimiento con dashboards" class="w-full h-full object-cover" />
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1470&auto=format&fit=crop" alt="Equipo de marketing analizando dashboards de crecimiento y ROI" class="w-full h-full object-cover" />
           </figure>
         </div>
+      </div>
+    </section>
+
+    <!-- Mantra / Referencia sutil a LOTR -->
+    <section aria-label="Manifiesto 1 Agency" class="py-10 border-t border-slate-200/60 bg-slate-50">
+      <div class="max-w-6xl mx-auto px-6 text-center space-y-4">
+        <h2 class="text-sm uppercase tracking-widest text-slate-500">Una agencia para…</h2>
+        <p class="text-2xl md:text-3xl font-extrabold leading-relaxed">
+          <span class="block">1 agencia para ordenar el caos.</span>
+          <span class="block">1 agencia para hacerlo crecer.</span>
+          <span class="block">1 agencia para medirlo todo.</span>
+        </p>
+        <ul class="mt-4 grid md:grid-cols-3 gap-3 text-base text-slate-800">
+          <li class="rounded-2xl border border-slate-200 px-4 py-3">1 agencia para <strong>negocios sin tiempo de implementar</strong></li>
+          <li class="rounded-2xl border border-slate-200 px-4 py-3">1 agencia para <strong>emprendedores que no saben por dónde empezar</strong></li>
+          <li class="rounded-2xl border border-slate-200 px-4 py-3">1 agencia para <strong>promocionar sin perder dinero</strong></li>
+        </ul>
       </div>
     </section>
 
@@ -106,80 +122,92 @@
     <section id="beneficios" class="py-16 border-t border-slate-200/60">
       <div class="max-w-6xl mx-auto px-6">
         <header class="mb-10">
-          <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Beneficios clave de 1P Agency</h2>
-          <p class="mt-3 text-slate-700 max-w-2xl">Una propuesta diseñada para acelerar crecimiento, minimizar fricción y asegurar ventaja competitiva.</p>
+          <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Argumentos clave: eficiencia, claridad y ROI</h2>
+          <p class="mt-3 text-slate-700 max-w-2xl">Una agencia para gobernar el desorden, acelerar la ejecución y demostrar resultados medibles.</p>
         </header>
 
         <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
-          <!-- Card 1 -->
-          <article class="rounded-3xl border border-slate-200 p-6 hover:shadow-lg transition" itemscope itemtype="https://schema.org/Benefit">
-            <h3 class="text-xl font-bold" itemprop="name">Resultados Exponenciales</h3>
-            <p class="mt-2 text-slate-700" itemprop="description">Crecimiento más rápido y pronunciado gracias a un enfoque 100% dedicado a tu producto y a una ejecución audaz.</p>
+          <article class="rounded-3xl border border-slate-200 p-6 hover:shadow-lg transition">
+            <h3 class="text-xl font-bold">Claridad y Orden</h3>
+            <p class="mt-2 text-slate-700">Auditoría integral + plan claro y ejecutable. Menos ruido, más foco en lo que sí funciona.</p>
           </article>
-
-          <!-- Card 2 -->
-          <article class="rounded-3xl border border-slate-200 p-6 hover:shadow-lg transition" itemscope itemtype="https://schema.org/Benefit">
-            <h3 class="text-xl font-bold" itemprop="name">Velocidad y Agilidad</h3>
-            <p class="mt-2 text-slate-700" itemprop="description">Sin “context switching”. Ideación → creación → implementación con aprobaciones rápidas y timing perfecto.</p>
+          <article class="rounded-3xl border border-slate-200 p-6 hover:shadow-lg transition">
+            <h3 class="text-xl font-bold">ROI Extremo</h3>
+            <p class="mt-2 text-slate-700">Cada euro cuenta: sin cambio de contexto y con conocimiento profundo desde el día 1. Acción desde el minuto cero.</p>
           </article>
-
-          <!-- Card 3 -->
-          <article class="rounded-3xl border border-slate-200 p-6 hover:shadow-lg transition" itemscope itemtype="https://schema.org/Benefit">
-            <h3 class="text-xl font-bold" itemprop="name">Expertise Inigualable</h3>
-            <p class="mt-2 text-slate-700" itemprop="description">Nos convertimos en expertos de tu industria desde el día uno, detectando oportunidades invisibles para otros.</p>
+          <article class="rounded-3xl border border-slate-200 p-6 hover:shadow-lg transition">
+            <h3 class="text-xl font-bold">Equipo Élite Accesible</h3>
+            <p class="mt-2 text-slate-700">Por el precio de una contratación, accedes a un equipo senior completo dedicado solo a tu proyecto.</p>
           </article>
-
-          <!-- Card 4 -->
-          <article class="rounded-3xl border border-slate-200 p-6 hover:shadow-lg transition" itemscope itemtype="https://schema.org/Benefit">
-            <h3 class="text-xl font-bold" itemprop="name">Alineación Total</h3>
-            <p class="mt-2 text-slate-700" itemprop="description">Nuestro éxito depende únicamente del tuyo. Transparencia, foco y compromiso radical.</p>
+          <article class="rounded-3xl border border-slate-200 p-6 hover:shadow-lg transition">
+            <h3 class="text-xl font-bold">Velocidad como Supervivencia</h3>
+            <p class="mt-2 text-slate-700">Decisiones y ejecución en horas. Reacción inmediata a tendencias, comentarios y oportunidades.</p>
           </article>
-
-          <!-- Card 5 -->
-          <article class="rounded-3xl border border-slate-200 p-6 hover:shadow-lg transition" itemscope itemtype="https://schema.org/Benefit">
-            <h3 class="text-xl font-bold" itemprop="name">Inversión Inteligente</h3>
-            <p class="mt-2 text-slate-700" itemprop="description">Cada dólar se convierte en procesos, estrategias e IP exclusivos para tu negocio.</p>
-          </article>
-
-          <!-- Card 6 -->
-          <article class="rounded-3xl border border-slate-200 p-6 hover:shadow-lg transition" itemscope itemtype="https://schema.org/Benefit">
-            <h3 class="text-xl font-bold" itemprop="name">Exclusividad Garantizada</h3>
-            <p class="mt-2 text-slate-700" itemprop="description">No trabajamos con tus competidores. Ventaja competitiva real y confidencialidad total.</p>
+          <article class="rounded-3xl border border-slate-200 p-6 hover:shadow-lg transition">
+            <h3 class="text-xl font-bold">Partner, no Proveedor</h3>
+            <p class="mt-2 text-slate-700">Eres nuestra cuenta más importante porque eres la única. Acceso directo y compromiso total con tus resultados.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- Por qué (H2 SEO) -->
-    <section id="por-que" class="py-16 border-t border-slate-200/60">
+    <!-- Para quién (segmentos) -->
+    <section id="para-quien" class="py-16 border-t border-slate-200/60">
       <div class="max-w-6xl mx-auto px-6">
         <header class="mb-10">
-          <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">¿Por qué elegir 1P Agency?</h2>
-          <p class="mt-3 text-slate-700 max-w-2xl">Porque simplificamos la operación y maximizamos el rendimiento con un equipo dedicado 100% a tu cuenta.</p>
+          <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">1 Agency para…</h2>
+          <p class="mt-3 text-slate-700 max-w-2xl">Casos típicos donde una sola agencia dedicada marca toda la diferencia.</p>
         </header>
+        <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
+          <article class="rounded-3xl border border-slate-200 p-6">
+            <h3 class="text-lg font-semibold">Negocios sin tiempo de implementar</h3>
+            <p class="mt-2 text-slate-700">Te damos el plan y lo ejecutamos por ti. Prioridades claras, calendario y entregables semanales.</p>
+          </article>
+          <article class="rounded-3xl border border-slate-200 p-6">
+            <h3 class="text-lg font-semibold">Emprendedores que no saben por dónde empezar</h3>
+            <p class="mt-2 text-slate-700">Blueprint de 90 días: propuesta de valor, mensajes, canales, contenido y primeras campañas.</p>
+          </article>
+          <article class="rounded-3xl border border-slate-200 p-6">
+            <h3 class="text-lg font-semibold">Negocios que necesitan promocionar sin perder dinero</h3>
+            <p class="mt-2 text-slate-700">Control de CAC, ROAS y CR. Test A/B rápidos para invertir solo en lo que convierte.</p>
+          </article>
+          <article class="rounded-3xl border border-slate-200 p-6">
+            <h3 class="text-lg font-semibold">Equipos que requieren claridad</h3>
+            <p class="mt-2 text-slate-700">Panel de métricas y rituales semanales: qué funcionó, qué no y qué haremos después.</p>
+          </article>
+          <article class="rounded-3xl border border-slate-200 p-6">
+            <h3 class="text-lg font-semibold">Marcas que necesitan velocidad</h3>
+            <p class="mt-2 text-slate-700">Ejecución en horas, no semanas. Sin burocracia, sin esperas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
+    <!-- Pack Orden & Growth -->
+    <section id="paquete" class="py-16 border-t border-slate-200/60">
+      <div class="max-w-6xl mx-auto px-6">
+        <header class="mb-10">
+          <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Pack Orden & Growth</h2>
+        </header>
         <div class="grid lg:grid-cols-12 gap-10 items-start">
           <div class="lg:col-span-7 space-y-6">
             <article>
-              <h3 class="text-xl font-bold">Enfoque absoluto, cero fricción</h3>
-              <p class="mt-2 text-slate-700">Olvida perseguir a un account manager sobrecargado. Tienes un equipo senior, un solo punto de contacto y comunicación ultra fluida.</p>
+              <h3 class="text-xl font-bold">Fase 1: Blueprint (Orden)</h3>
+              <p class="mt-2 text-slate-700">Auditoría completa y plan de 90 días. Prioridades, calendario, mensajes clave y KPIs accionables.</p>
             </article>
             <article>
-              <h3 class="text-xl font-bold">Timing perfecto para el mercado</h3>
-              <p class="mt-2 text-slate-700">Capitalizamos tendencias y respondemos a crisis en tiempo real porque no dividimos nuestra atención.</p>
-            </article>
-            <article>
-              <h3 class="text-xl font-bold">Medimos lo que importa</h3>
-              <p class="mt-2 text-slate-700">Definimos KPIs accionables y un panel de control que muestra el impacto en crecimiento, adquisición y retención.</p>
+              <h3 class="text-xl font-bold">Fase 2: Ejecución (Growth)</h3>
+              <p class="mt-2 text-slate-700">Implementación: redes, contenido, ads, optimización. Informe semanal transparente de ROI.</p>
             </article>
           </div>
           <aside class="lg:col-span-5">
             <div class="rounded-3xl border border-slate-200 p-6">
-              <h3 class="text-lg font-semibold">Métricas de referencia</h3>
+              <h3 class="text-lg font-semibold">Qué obtienes</h3>
               <ul class="mt-3 space-y-2 text-sm text-slate-700">
-                <li>⏱️ <strong>Tiempo de lanzamiento:</strong> 48–72 h para campañas base</li>
-                <li>🧪 <strong>Ensayos creativos:</strong> 5–12 variaciones por sprint</li>
-                <li>📈 <strong>KPIs:</strong> CAC, LTV, ROAS, CR, Retención cohorte</li>
+                <li>📋 Plan 90 días + backlog priorizado</li>
+                <li>🎯 KPIs: CAC, LTV, ROAS, CR, Retención</li>
+                <li>🧪 Test A/B de creatividades y landing</li>
+                <li>📊 Informe semanal claro y accionable</li>
               </ul>
             </div>
           </aside>
@@ -187,43 +215,41 @@
       </div>
     </section>
 
-    <!-- FAQ (H2 SEO + FAQPage) -->
+    <!-- FAQ -->
     <section id="preguntas" class="py-16 border-t border-slate-200/60">
       <div class="max-w-6xl mx-auto px-6">
         <header class="mb-10">
           <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Preguntas frecuentes</h2>
-          <p class="mt-3 text-slate-700 max-w-2xl">Resolviendo dudas típicas sobre nuestro modelo hiper enfocado.</p>
         </header>
         <div class="space-y-6" itemscope itemtype="https://schema.org/FAQPage">
           <article class="group rounded-3xl border border-slate-200 p-6">
-            <h3 class="text-lg font-semibold" itemprop="name">¿Trabajan con más de un cliente a la vez?</h3>
+            <h3 class="text-lg font-semibold" itemprop="name">¿Soy realmente el único cliente?</h3>
             <p class="mt-2 text-slate-700" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-              <span itemprop="text">Nuestro foco es <strong>una cuenta por equipo</strong>. Esto elimina el cambio de contexto y acelera la ejecución.</span>
+              <span itemprop="text">Sí. Un equipo dedicado por cuenta garantiza foco total, velocidad y ROI superior.</span>
             </p>
           </article>
           <article class="group rounded-3xl border border-slate-200 p-6">
-            <h3 class="text-lg font-semibold" itemprop="name">¿Cómo garantizan la exclusividad?</h3>
+            <h3 class="text-lg font-semibold" itemprop="name">¿Cómo se mide el ROI?</h3>
             <p class="mt-2 text-slate-700" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-              <span itemprop="text">Firmamos un acuerdo de no competencia por vertical y territorio, asegurando que tus tácticas no se repliquen.</span>
+              <span itemprop="text">Definimos KPIs desde el inicio (CAC, LTV, ROAS, CR) y reportamos semanalmente impactos y mejoras.</span>
             </p>
           </article>
           <article class="group rounded-3xl border border-slate-200 p-6">
-            <h3 class="text-lg font-semibold" itemprop="name">¿Qué entregables recibo cada mes?</h3>
+            <h3 class="text-lg font-semibold" itemprop="name">¿Qué pasa si necesito más alcance?</h3>
             <p class="mt-2 text-slate-700" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-              <span itemprop="text">Plan de experimentos, reportes de KPIs, creatividades testadas, aprendizajes y roadmap del siguiente sprint.</span>
+              <span itemprop="text">Escalamos recursos en sprints. Mantienes un único punto de contacto y la misma claridad operativa.</span>
             </p>
           </article>
         </div>
       </div>
-      <!-- FAQ Structured Data -->
       <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
-          {"@type": "Question","name": "¿Trabajan con más de un cliente a la vez?","acceptedAnswer": {"@type": "Answer","text": "Nuestro foco es una cuenta por equipo. Esto elimina el cambio de contexto y acelera la ejecución."}},
-          {"@type": "Question","name": "¿Cómo garantizan la exclusividad?","acceptedAnswer": {"@type": "Answer","text": "Firmamos un acuerdo de no competencia por vertical y territorio, asegurando que tus tácticas no se repliquen."}},
-          {"@type": "Question","name": "¿Qué entregables recibo cada mes?","acceptedAnswer": {"@type": "Answer","text": "Plan de experimentos, reportes de KPIs, creatividades testadas, aprendizajes y roadmap del siguiente sprint."}}
+          {"@type": "Question","name": "¿Soy realmente el único cliente?","acceptedAnswer": {"@type": "Answer","text": "Sí. Un equipo dedicado por cuenta garantiza foco total, velocidad y ROI superior."}},
+          {"@type": "Question","name": "¿Cómo se mide el ROI?","acceptedAnswer": {"@type": "Answer","text": "Definimos KPIs desde el inicio (CAC, LTV, ROAS, CR) y reportamos semanalmente impactos y mejoras."}},
+          {"@type": "Question","name": "¿Qué pasa si necesito más alcance?","acceptedAnswer": {"@type": "Answer","text": "Escalamos recursos en sprints. Mantienes un único punto de contacto y la misma claridad operativa."}}
         ]
       }
       </script>
@@ -232,11 +258,129 @@
     <!-- CTA Final -->
     <section id="contacto" class="py-16 border-t border-slate-200/60">
       <div class="max-w-6xl mx-auto px-6 text-center">
-        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">¿Listo para crecer más rápido?</h2>
-        <p class="mt-3 text-lg text-slate-700">Con 1P Agency consigues un equipo obsesionado con tu crecimiento, sin burocracia ni distracciones.</p>
+        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">¿Listo para medir y multiplicar tu ROI?</h2>
+        <p class="mt-3 text-lg text-slate-700">Una sola agencia dedicada para ordenar, crecer y medirlo todo.</p>
         <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
           <a href="#" class="inline-flex items-center justify-center px-6 py-4 text-base font-semibold rounded-2xl bg-slate-900 text-white hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-slate-900 focus:ring-offset-2">Agendar una llamada</a>
-          <a href="mailto:hola@1pagency.com" class="inline-flex items-center justify-center px-6 py-4 text-base font-semibold rounded-2xl border border-slate-300 hover:border-slate-900">Escribir a un experto</a>
+          <a href="mailto:hola@1agency.com" class="inline-flex items-center justify-center px-6 py-4 text-base font-semibold rounded-2xl border border-slate-300 hover:border-slate-900">Escribir a un experto</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== CONTENT IN ENGLISH ===== -->
+  <main id="content-en" data-lang="en">
+    <section class="relative overflow-hidden">
+      <div class="max-w-6xl mx-auto px-6 pt-16 pb-12 grid lg:grid-cols-12 gap-10 items-center">
+        <div class="lg:col-span-7">
+          <p class="uppercase tracking-widest text-xs font-semibold text-slate-500">Efficiency • Clarity • ROI</p>
+          <h1 class="mt-3 text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight">
+            One agency to <span class="inline-block -skew-x-3 bg-yellow-300 px-2">organize</span>, <span class="inline-block -skew-x-3 bg-yellow-300 px-2">grow</span> and <span class="inline-block -skew-x-3 bg-yellow-300 px-2">measure it all</span>
+          </h1>
+          <p class="mt-5 text-lg sm:text-xl text-slate-700 max-w-2xl">
+            You’re not just another client — <strong>you’re the only one</strong>. We turn chaos into clarity and spending into <strong>ROI‑driven investment</strong>.
+          </p>
+          <div class="mt-7 flex flex-wrap gap-3">
+            <a href="#contacto" class="inline-flex items-center justify-center px-5 py-3 text-base font-semibold rounded-2xl bg-slate-900 text-white hover:bg-slate-800">Book a Call</a>
+            <a href="#beneficios" class="inline-flex items-center justify-center px-5 py-3 text-base font-semibold rounded-2xl border border-slate-300 hover:border-slate-900 hover:text-slate-900">See Benefits</a>
+          </div>
+        </div>
+        <div class="lg:col-span-5">
+          <figure class="relative aspect-[4/3] rounded-3xl border border-slate-200 shadow-sm overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1470&auto=format&fit=crop" alt="Marketing team analyzing growth and ROI dashboards" class="w-full h-full object-cover" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mantra / Subtle LOTR nod -->
+    <section aria-label="1 Agency Manifesto" class="py-10 border-t border-slate-200/60 bg-slate-50">
+      <div class="max-w-6xl mx-auto px-6 text-center space-y-4">
+        <h2 class="text-sm uppercase tracking-widest text-slate-500">One agency for…</h2>
+        <p class="text-2xl md:text-3xl font-extrabold leading-relaxed">
+          <span class="block">One agency to bring order.</span>
+          <span class="block">One agency to make it grow.</span>
+          <span class="block">One agency to measure it all.</span>
+        </p>
+        <ul class="mt-4 grid md:grid-cols-3 gap-3 text-base text-slate-800">
+          <li class="rounded-2xl border border-slate-200 px-4 py-3">One agency for <strong>no‑time‑to‑implement businesses</strong></li>
+          <li class="rounded-2xl border border-slate-200 px-4 py-3">One agency for <strong>founders who don’t know where to start</strong></li>
+          <li class="rounded-2xl border border-slate-200 px-4 py-3">One agency to <strong>promote without burning money</strong></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="py-16 border-t border-slate-200/60">
+      <div class="max-w-6xl mx-auto px-6">
+        <header class="mb-10">
+          <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Core Arguments: Efficiency, Clarity & ROI</h2>
+          <p class="mt-3 text-slate-700 max-w-2xl">One agency to tame disorder, speed up execution and prove measurable results.</p>
+        </header>
+
+        <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
+          <article class="rounded-3xl border border-slate-200 p-6 hover:shadow-lg transition">
+            <h3 class="text-xl font-bold">Clarity & Order</h3>
+            <p class="mt-2 text-slate-700">Full audit + clear, executable plan. Less noise, more focus on what works.</p>
+          </article>
+          <article class="rounded-3xl border border-slate-200 p-6 hover:shadow-lg transition">
+            <h3 class="text-xl font-bold">Extreme ROI</h3>
+            <p class="mt-2 text-slate-700">Every dollar counts: no context‑switching and deep knowledge from day one. Action from minute zero.</p>
+          </article>
+          <article class="rounded-3xl border border-slate-200 p-6 hover:shadow-lg transition">
+            <h3 class="text-xl font-bold">Elite Team, Accessible</h3>
+            <p class="mt-2 text-slate-700">For the price of one hire, access a full senior team exclusively dedicated to your project.</p>
+          </article>
+          <article class="rounded-3xl border border-slate-200 p-6 hover:shadow-lg transition">
+            <h3 class="text-xl font-bold">Speed as Survival</h3>
+            <p class="mt-2 text-slate-700">Decisions and execution in hours. Instant reaction to trends, feedback and opportunities.</p>
+          </article>
+          <article class="rounded-3xl border border-slate-200 p-6 hover:shadow-lg transition">
+            <h3 class="text-xl font-bold">Partner, Not Vendor</h3>
+            <p class="mt-2 text-slate-700">You are our most important account because you are the only one. Direct access and full commitment to your results.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- For whom (segments) -->
+    <section class="py-16 border-t border-slate-200/60">
+      <div class="max-w-6xl mx-auto px-6">
+        <header class="mb-10">
+          <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">1 Agency for…</h2>
+          <p class="mt-3 text-slate-700 max-w-2xl">Typical scenarios where a single dedicated agency changes everything.</p>
+        </header>
+        <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
+          <article class="rounded-3xl border border-slate-200 p-6">
+            <h3 class="text-lg font-semibold">Businesses with no time to implement</h3>
+            <p class="mt-2 text-slate-700">We give you the plan and execute it for you. Clear priorities, calendar and weekly deliverables.</p>
+          </article>
+          <article class="rounded-3xl border border-slate-200 p-6">
+            <h3 class="text-lg font-semibold">Founders who don’t know where to start</h3>
+            <p class="mt-2 text-slate-700">90‑day blueprint: value prop, messaging, channels, content and first campaigns.</p>
+          </article>
+          <article class="rounded-3xl border border-slate-200 p-6">
+            <h3 class="text-lg font-semibold">Businesses that must promote without losing money</h3>
+            <p class="mt-2 text-slate-700">Tight control of CAC, ROAS and CR. Fast A/B tests to invest only in what converts.</p>
+          </article>
+          <article class="rounded-3xl border border-slate-200 p-6">
+            <h3 class="text-lg font-semibold">Teams that need clarity</h3>
+            <p class="mt-2 text-slate-700">Metrics dashboard and weekly rituals: what worked, what didn’t and what’s next.</p>
+          </article>
+          <article class="rounded-3xl border border-slate-200 p-6">
+            <h3 class="text-lg font-semibold">Brands that need speed</h3>
+            <p class="mt-2 text-slate-700">Execution in hours, not weeks. No bureaucracy, no waiting.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 border-t border-slate-200/60">
+      <div class="max-w-6xl mx-auto px-6 text-center">
+        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Ready to measure and multiply your ROI?</h2>
+        <p class="mt-3 text-lg text-slate-700">One dedicated agency to organize, grow, and measure it all.</p>
+        <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
+          <a href="#" class="inline-flex items-center justify-center px-6 py-4 text-base font-semibold rounded-2xl bg-slate-900 text-white hover:bg-slate-800">Book a Call</a>
+          <a href="mailto:hello@1agency.com" class="inline-flex items-center justify-center px-6 py-4 text-base font-semibold rounded-2xl border border-slate-300 hover:border-slate-900">Email an Expert</a>
         </div>
       </div>
     </section>
@@ -245,7 +389,7 @@
   <!-- Footer -->
   <footer class="border-t border-slate-200/60">
     <div class="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-2 gap-6 items-center">
-      <p class="text-sm text-slate-600">© <span id="year"></span> 1P Agency. Todos los derechos reservados.</p>
+      <p class="text-sm text-slate-600">© <span id="year"></span> 1 Agency. Todos los derechos reservados.</p>
       <nav class="justify-self-end flex gap-6 text-sm">
         <a href="#" class="hover:text-slate-900">Términos</a>
         <a href="#" class="hover:text-slate-900">Privacidad</a>
@@ -255,6 +399,16 @@
   </footer>
 
   <script>
+    const btnEs = document.getElementById('btn-es');
+    const btnEn = document.getElementById('btn-en');
+    const es = document.querySelector('[data-lang="es"]');
+    const en = document.querySelector('[data-lang="en"]');
+    function setLang(lang){
+      if(lang==='es'){ es.style.display='block'; en.style.display='none'; btnEs.setAttribute('aria-pressed','true'); btnEn.setAttribute('aria-pressed','false'); document.documentElement.setAttribute('lang','es'); document.title='1 Agency — Una agencia para ordenar, crecer y medirlo todo'; }
+      else { es.style.display='none'; en.style.display='block'; btnEs.setAttribute('aria-pressed','false'); btnEn.setAttribute('aria-pressed','true'); document.documentElement.setAttribute('lang','en'); document.title='1 Agency — One agency to organize, grow and measure it all'; }
+    }
+    btnEs?.addEventListener('click',()=>setLang('es'));
+    btnEn?.addEventListener('click',()=>setLang('en'));
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
